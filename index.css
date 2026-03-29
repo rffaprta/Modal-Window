@@ -1,0 +1,52 @@
+/* Css Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  width: 300px;
+  min-height: 50px;
+  background-color: #f0a2f0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  text-align: center;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+.column h2 {
+  color: #7e587e;
+}
+
+.column p {
+  margin: 5px;
+}
+
+.column button {
+  padding: 5px;
+  background-color: #fad0c4;
+  border: 0;
+  border-radius: 5px;
+}
