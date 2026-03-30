@@ -50,3 +50,18 @@ body {
   border: 0;
   border-radius: 5px;
 }
+
+/* Modal Box */
+.modal-box {
+  position: fixed;
+  z-index: 1000;
+  transform: translate;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0a2f0;
+  width: 300px;
+  min-height: 200px;
+  border-radius: 5px;
+  text-align: center;
+}
